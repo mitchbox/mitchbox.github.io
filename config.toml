@@ -1,0 +1,43 @@
+baseURL = "/"
+languageCode = "zh-tw"
+paginate = 6
+summaryLength = 3
+title = "CEO Mitch | 米總財"
+theme = "blogge-hugo-theme"
+
+[menu]
+  [[menu.main]]
+    name = "首頁"
+    url= ""
+    weight= 1
+  [[menu.main]]
+    name = "關於米總"
+    url= "about"
+    weight= 2
+  [[menu.main]]
+    name = "與我聯絡"
+    url= "contact"
+    weight= 3
+
+[params]
+  summaryLength = 3
+  logo = "images/mitch_logo.png"
+  author = "Mitch"
+  authorThumb = "images/author.png"
+  authorAddress = "Taiwan"
+  authorPhone = ""
+  instaUsername = "mary_astor"
+  facebookUsername = "mitchbox.inc"
+  twitterUsername = "mary_astor"
+  linkedinUsername = "mitchbox"
+  blogTitle = "所有文章"
+  blogSubTitle = ""
+  trendingBlogIcon = "images/icon.svg"
+  # Replace the third party URL/API with yours
+  # We're using formspree.io for form handling, paste your formspree url below
+  fabformURL  = "9AJk8ro"
+  googleAnalyticsID = "G-758ZK2C23P"
+  googleMapAPI = "AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0"
+
+[taxonomies]
+  tag = "tags"
