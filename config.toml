@@ -14,10 +14,6 @@ theme = "blogge-hugo-theme"
     name = "關於米總"
     url= "about"
     weight= 2
-  [[menu.main]]
-    name = "與我聯絡"
-    url= "contact"
-    weight= 3
 
 [params]
   summaryLength = 3
