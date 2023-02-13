@@ -23,9 +23,10 @@ theme = "blogge-hugo-theme"
   authorThumb = "images/author.png"
   authorAddress = "Taiwan"
   authorPhone = ""
-  instaUsername = "mary_astor"
+  tagDefaultThumb = "images/tag_thumb.jpg"
+  instaUsername = ""
   facebookUsername = "mitchbox.inc"
-  twitterUsername = "mary_astor"
+  twitterUsername = ""
   linkedinUsername = "mitchbox"
   blogTitle = "所有文章"
   blogSubTitle = ""
@@ -39,3 +40,8 @@ theme = "blogge-hugo-theme"
 
 [taxonomies]
   tag = "tags"
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.8
