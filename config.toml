@@ -32,6 +32,7 @@ theme = "blogge-hugo-theme"
   # Replace the third party URL/API with yours
   # We're using formspree.io for form handling, paste your formspree url below
   fabformURL  = "9AJk8ro"
+  facebookID = "3287424478177190"
   googleAnalyticsID = "G-758ZK2C23P"
   googleMapAPI = "AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0"
 
