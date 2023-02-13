@@ -2,6 +2,7 @@ baseURL = "/"
 languageCode = "zh-tw"
 paginate = 6
 summaryLength = 3
+enableRobotsTXT = true
 title = "CEO Mitch | 米總財"
 theme = "blogge-hugo-theme"
 
