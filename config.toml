@@ -43,5 +43,5 @@ theme = "blogge-hugo-theme"
 
 [sitemap]
   changefreq = "monthly"
-  filename = "sitemap.xml"
+  filename = "content/sitemap.xml"
   priority = 0.8
