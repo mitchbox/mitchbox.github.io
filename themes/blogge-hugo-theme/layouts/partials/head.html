@@ -4,6 +4,11 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta property="og:title" content="{{ .Title }}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{{ if .Permalink }}{{ .Permalink }}{{ end }}" />
+  <meta property="og:image" content="{{ if .Params.featureImage }}{{ .Params.featureImage | absURL }}{{ else }}{{ .Site.Params.authorThumb | absURL }}{{ end }}" />
+  <meta property="og:description" content="{{ if .Summary }}{{ .Summary }}{{ end }}" />
 
   {{ with .Site.Params.author }}
   <meta name="author" content="{{ . }}">
