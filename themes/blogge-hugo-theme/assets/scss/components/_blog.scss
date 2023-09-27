@@ -511,6 +511,16 @@
           }
         }
       }
+      th {
+        background-color: #CCC;
+        border-bottom: 1px solid #CCC;
+        color: #333;
+        padding: 0 30px;
+      }
+      td {
+        border-bottom: 1px solid #CCC;
+        padding: 10px;
+      }
     }
     &-presentation {
       display: flex;
